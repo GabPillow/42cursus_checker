@@ -34,7 +34,7 @@ do
 		##############
 
 		NORM='\033[1;32m[OK]\033[0m 😺'
-		TEST="$(norminette ../${PATH_GNL} | grep "Warning\|Error")"
+		TEST="$(norminette ${PATH_GNL} | grep "Warning\|Error")"
 		if [ "$TEST" != "" ]
 		then
 			NORM="\033[1;31m[KO]\033[0m 🙀"

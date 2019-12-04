@@ -1,16 +1,12 @@
-# GNL
-###########
-#FIRST USE#
-###########
-Launch with : sh GNL_TEST.sh
+# 42cursus_checker
 
-When asking tape your path project.
+## Test suite for 42cursus projects
+note : Only get_next_line is supported for now.
 
-#############
-#GENERAL USE#
-#############
+#### get_next_line
+    bash GNL_TEST.sh
+    Enter your path project.
+You can manually edit the path in utils/PATH_GNL.
+You don't need to enter your path project everytime you run the tests, only if you've changed the path.
 
-You don't have to tape your path project everytime, only if the path have change.
-You can choose what are the test you want to pass.
-You can also directly change the path in PATH_GNL file. (If so, be careful of
-the \n).
+![screenshot](https://github.com/GabPillow/42cursus_checker/blob/master/screenshot.png)

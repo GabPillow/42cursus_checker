@@ -186,7 +186,6 @@ do
 			then
 			ret2="\033[1;31m/!\\\\\033[0m${ret2}"
 			fi
-			echo "Error_return : ${ret1} ${ret2}"
 
 			#####################
 			# WRONG BUFFER_SIZE #

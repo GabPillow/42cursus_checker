@@ -26,7 +26,7 @@ do
 # TESTS #
 #########
 
-	if [ $ret == "1" ] || [ $ret == "2" ] || [ $ret == "3" ]
+	if [ $ret == "1" ] || [ $ret == "2" ] || [ $ret == "3" ] || [ $ret == "4" ]
 	then
 		
 		##############
@@ -120,6 +120,7 @@ do
 		if [ $ret == "1" ] || [ $ret == "3" ]
 		then
 			ret1='\033[1;31m[KO]\033[0m'
+			gcc -Wall -Werror -Wextra -g3 -o extest utils/$PROJECT gnl_test/tests/test_simple.c gnl_test/gnl_test_utils.c
 
 			############
 			# dev/null #
@@ -139,7 +140,76 @@ do
 			fi
 			echo "No_crash : ${ret1}"
 		fi
-		rm -rf extest extest.dSYM
+
+		################
+		# ERROR RETURN #
+		################
+
+		if [ $ret == "1" ] || [ $ret == "4" ]
+		then
+			ret1='\033[1;31m[KO]\033[0m'
+			ret2='\033[1;31m[KO]\033[0m'
+			ret3='\033[1;31m[KO]\033[0m'
+			
+			###########
+			# NO LINE #
+			###########
+
+			echo "###########\n# NO LINE #\n###########\n" > results/error_return_folder/error_return_1
+			gcc -Wall -Werror -Wextra -g3 -o nullos utils/$PROJECT gnl_test/tests/test_error_null.c gnl_test/gnl_test_utils.c
+			/bin/echo -n "$(valgrind --log-file=valou ./nullos tests_files/shakespear.txt)" >> results/error_return_folder/error_return_1
+			grep "definitely lost" valou | cut -d: -f2 > utils/maybe_leaks
+			rm -rf valou
+			if cmp -s results/error_return_folder/error_return_1 results/error_return_folder/error_return_corr_1
+			then
+			ret1='\033[1;32m[OK]\033[0m'
+			fi
+			if ! cmp -s utils/no_leaks utils/maybe_leaks
+			then
+			ret1="\033[1;31m/!\\\\\033[0m${ret1}"
+			fi
+
+			############
+			# BAD FILE #
+			############
+			
+			echo "############\n# BAD FILE #\n############\n" > results/error_return_folder/error_return_2
+			gcc -Wall -Werror -Wextra -g3 -o nullos utils/$PROJECT gnl_test/tests/test_error_bad_file.c gnl_test/gnl_test_utils.c
+			/bin/echo -n "$(valgrind --log-file=valou ./nullos tests_files/shakespear.txt)" >> results/error_return_folder/error_return_2
+			grep "definitely lost" valou | cut -d: -f2 > utils/maybe_leaks
+			rm -rf valou
+			if cmp -s results/error_return_folder/error_return_2 results/error_return_folder/error_return_corr_2
+			then
+			ret2='\033[1;32m[OK]\033[0m'
+			fi
+			if ! cmp -s utils/no_leaks utils/maybe_leaks
+			then
+			ret2="\033[1;31m/!\\\\\033[0m${ret2}"
+			fi
+			echo "Error_return : ${ret1} ${ret2}"
+
+			#####################
+			# WRONG BUFFER_SIZE #
+			#####################
+
+			echo "#####################\n# WRONG BUFFER_SIZE #\n#####################\n" > results/error_return_folder/error_return_3
+			gcc -Wextra -Wall -g3 -o nullos -D BUFFER_SIZE=-1 $GET_NEXT_LINE_FILES gnl_test/tests/test_simple.c gnl_test/gnl_test_utils.c
+			/bin/echo -n "$(valgrind --log-file=valou ./nullos tests_files/shakespear.txt)" >> results/error_return_folder/error_return_3
+			grep "definitely lost" valou | cut -d: -f2 > utils/maybe_leaks
+			rm -rf valou
+			if cmp -s results/error_return_folder/error_return_3 results/error_return_folder/error_return_corr_3
+			then
+			ret3='\033[1;32m[OK]\033[0m'
+			fi
+			if ! cmp -s utils/no_leaks utils/maybe_leaks
+			then
+			ret3="\033[1;31m/!\\\\\033[0m${ret3}"
+			fi
+
+			echo "Error_return : ${ret1} ${ret2} ${ret3}"
+			rm nullos nullos.dSYM
+		fi
 	fi
 
-done
+	done
+	rm -rf extest extest.dSYM

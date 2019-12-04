@@ -19,5 +19,6 @@ ____________________________\n
 1. Run all tests
 2. Run simple test
 3. Run No crash test
+4. Run Error return
 0. Exit
 Choose :"

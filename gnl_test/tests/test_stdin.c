@@ -1,6 +1,4 @@
 #include "../../utils/gnl_test.h"
-#include <fcntl.h>
-#include <stdio.h>
 
 int	main(void)
 {

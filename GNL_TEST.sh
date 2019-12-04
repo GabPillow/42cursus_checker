@@ -26,7 +26,7 @@ do
 # TESTS #
 #########
 
-	if [ $ret == "1" ] || [ $ret == "2" ] || [ $ret == "3" ] || [ $ret == "4" ]
+	if [ $ret == "1" ] || [ $ret == "2" ] || [ $ret == "3" ] || [ $ret == "4" ] || [ $ret == "5" ]
 	then
 		
 		##############
@@ -207,6 +207,35 @@ do
 
 			echo "Error_return : ${ret1} ${ret2} ${ret3}"
 			rm -rf nullos nullos.dSYM
+		fi
+
+		#########
+		# BONUS #
+		#########
+		
+		if [ $ret == "1" ] || [ $ret == "5" ]
+		then
+			ret1='\033[1;31m[KO]\033[0m'
+			gcc -Wall -Werror -Wextra -g3 -o extest utils/$PROJECT gnl_test/tests/test_multiple_fds.c gnl_test/gnl_test_utils.c
+
+			################
+			# MULTIPLE FDS #
+			################
+
+			echo "################\n# MULTIPLE FDS #\n################\n" > results/bonus_folder/bonus_1
+			/bin/echo -n "$(valgrind --log-file=valou ./extest tests_files/shakespear.txt tests_files/poe.txt tests_files/1_line_of_5_char_ending_with_bn.txt)" >> results/bonus_folder/bonus_1
+			grep "definitely lost" valou | cut -d: -f2 > utils/maybe_leaks
+			rm -rf valou
+			if cmp -s results/bonus_folder/bonus_1 results/bonus_folder/bonus_corr_1
+			then
+			ret1='\033[1;32m[OK]\033[0m'
+			fi
+			if ! cmp -s utils/no_leaks utils/maybe_leaks
+			then
+			re1="\033[1;31m/!\\\\\033[0m${ret1}"
+			fi
+
+			echo "BONUS : ${ret1}"
 		fi
 	fi
 

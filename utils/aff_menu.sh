@@ -20,5 +20,6 @@ ____________________________\n
 2. Run simple test
 3. Run No crash test
 4. Run Error return
+5. BONUS
 0. Exit
 Choose :"

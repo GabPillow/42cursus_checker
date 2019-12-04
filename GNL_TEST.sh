@@ -207,7 +207,7 @@ do
 			fi
 
 			echo "Error_return : ${ret1} ${ret2} ${ret3}"
-			rm nullos nullos.dSYM
+			rm -rf nullos nullos.dSYM
 		fi
 	fi
 

@@ -24,6 +24,8 @@ echo "#ifndef GNL_TEST_H
 #include \"../${PATH_GNL}get_next_line.h\"
 #include <unistd.h>
 #include <stdlib.h>
+#include <fcntl.h>
+#include <stdio.h>
 
 void			ft_putnbr_fd(int n, int fd);
 void			ft_putstr_fd(const char *s, int fd);

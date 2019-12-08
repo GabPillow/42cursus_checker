@@ -58,6 +58,7 @@ do
 			ret1='\033[1;31m[KO]\033[0m'
 			ret2='\033[1;31m[KO]\033[0m'
 			ret3='\033[1;31m[KO]\033[0m'
+			ret4='\033[1;31m[KO]\033[0m'
 			gcc -Wall -Werror -Wextra -g3 -o extest utils/$PROJECT gnl_test/tests/test_simple.c gnl_test/gnl_test_utils.c
 
 		##############
@@ -93,13 +94,13 @@ do
 			then
 			ret2="\033[1;31m/!\\\\\033[0m${ret2}"
 			fi
-		
-		# ###########################################
-		#  1 LINE of 100 000 CHAR CHAR ENDING : \n  #
-		# ###########################################
 
-			echo "###########################################\n# 1 LINE of 100 000 CHAR CHAR ENDING : \\\n #\n###########################################\n" > results/simple_test_folder/simple_test_3
-			/bin/echo -n "$(valgrind --log-file=valou ./extest tests_files/4_lines_ending_with_bn.txt)" >> results/simple_test_folder/simple_test_3
+		##############
+		# EMPTY FILE #
+		##############
+
+			echo "##############\n# EMPTY FILE #\n##############\n" > results/simple_test_folder/simple_test_3
+			/bin/echo -n "$(valgrind --log-file=valou ./extest tests_files/empty_file.txt)" >> results/simple_test_folder/simple_test_3
 			grep "definitely lost" valou | cut -d: -f2 > utils/maybe_leaks
 			rm -rf valou
 			if cmp -s results/simple_test_folder/simple_test_3 results/simple_test_folder/simple_test_corr_3
@@ -110,7 +111,25 @@ do
 			then
 			ret3="\033[1;31m/!\\\\\033[0m${ret3}"
 			fi
-			echo "Simple_test : ${ret1} ${ret2} ${ret3}"
+
+		################
+		# FOLLOWING BN #
+		################
+
+			echo "################\n# FOLLOWING BN #\n################\n" > results/simple_test_folder/simple_test_4
+			/bin/echo -n "$(valgrind --log-file=valou ./extest tests_files/empty_file.txt)" >> results/simple_test_folder/simple_test_4
+			grep "definitely lost" valou | cut -d: -f2 > utils/maybe_leaks
+			rm -rf valou
+			if cmp -s results/simple_test_folder/simple_test_4 results/simple_test_folder/simple_test_corr_4
+			then
+			ret4='\033[1;32m[OK]\033[0m'
+			fi
+			if ! cmp -s utils/no_leaks utils/maybe_leaks
+			then
+			ret4="\033[1;31m/!\\\\\033[0m${ret4}"
+			fi
+
+			echo "simple_test : ${ret1} ${ret2} ${ret3} ${ret4}"
 		fi
 
 		############
@@ -216,6 +235,7 @@ do
 		if [ $ret == "1" ] || [ $ret == "5" ]
 		then
 			ret1='\033[1;31m[KO]\033[0m'
+
 			gcc -Wall -Werror -Wextra -g3 -o extest utils/$PROJECT gnl_test/tests/test_multiple_fds.c gnl_test/gnl_test_utils.c
 
 			################
@@ -234,7 +254,6 @@ do
 			then
 			re1="\033[1;31m/!\\\\\033[0m${ret1}"
 			fi
-
 			echo "BONUS : ${ret1}"
 		fi
 	fi

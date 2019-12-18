@@ -16,11 +16,6 @@ do
 		sh utils/path_project.sh
 	fi
 	PATH_GNL="$(cat utils/PATH_GNL)"
-	if [ $ret == "b" ]
-	then
-		sh utils/buffer_size.sh
-	fi
-	BUFFER_SIZE="$(cat utils/buffer_size)"
 
 #########
 # TESTS #
@@ -41,95 +36,15 @@ do
 		fi
 		echo "Norminette : ${NORM}"
 
-		PROJECT='project.a'
-		GET_NEXT_LINE_FILES="${PATH_GNL}get_next_line.c ${PATH_GNL}get_next_line_utils.c"
-		OBJ="get_next_line.o get_next_line_utils.o"
-		gcc -Wall -Wextra -Werror -D BUFFER_SIZE=$BUFFER_SIZE -c $GET_NEXT_LINE_FILES
-		ar rc utils/$PROJECT $OBJ
-		ranlib utils/$PROJECT
-		rm $OBJ
-
 		###############
 		# SIMPLE_TEST #
 		###############
 
 		if [ $ret == "1" ] || [ $ret == "2" ]
 		then
-			ret1='\033[1;31m[KO]\033[0m'
-			ret2='\033[1;31m[KO]\033[0m'
-			ret3='\033[1;31m[KO]\033[0m'
-			ret4='\033[1;31m[KO]\033[0m'
-			gcc -Wall -Werror -Wextra -g3 -o extest utils/$PROJECT gnl_test/tests/test_simple.c gnl_test/gnl_test_utils.c
-
-		##############
-		# SHAKESPEAR #
-		##############
-
-			echo "##############\n# SHAKESPEAR #\n##############\n" > results/simple_test_folder/simple_test_1
-			/bin/echo -n "$(valgrind --log-file=valou ./extest tests_files/shakespear.txt)" >> results/simple_test_folder/simple_test_1
-			grep "definitely lost" valou | cut -d: -f2 > utils/maybe_leaks
-			rm -rf valou
-			if cmp -s results/simple_test_folder/simple_test_1 results/simple_test_folder/simple_test_corr_1
-			then
-			ret1='\033[1;32m[OK]\033[0m'
-			fi
-			if ! cmp -s utils/no_leaks utils/maybe_leaks
-			then
-			ret1="\033[1;31m/!\\\\\033[0m${ret1}"
-			fi
-
-		# ###################################
-		#  1000 LINE OF 1 CHAR ENDING : \n  #
-		# ###################################
-
-			echo "###################################\n# 1000 LINE OF 1 CHAR ENDING : \\\n #\n###################################\n" > results/simple_test_folder/simple_test_2
-			/bin/echo -n "$(valgrind --log-file=valou ./extest tests_files/1000_lines_of_1_char_ending_with_bn.txt)" >> results/simple_test_folder/simple_test_2
-			grep "definitely lost" valou | cut -d: -f2 > utils/maybe_leaks
-			rm -rf valou
-			if cmp -s results/simple_test_folder/simple_test_2 results/simple_test_folder/simple_test_corr_2
-			then
-			ret2='\033[1;32m[OK]\033[0m'
-			fi
-			if ! cmp -s utils/no_leaks utils/maybe_leaks
-			then
-			ret2="\033[1;31m/!\\\\\033[0m${ret2}"
-			fi
-
-		##############
-		# EMPTY FILE #
-		##############
-
-			echo "##############\n# EMPTY FILE #\n##############\n" > results/simple_test_folder/simple_test_3
-			/bin/echo -n "$(valgrind --log-file=valou ./extest tests_files/empty_file.txt)" >> results/simple_test_folder/simple_test_3
-			grep "definitely lost" valou | cut -d: -f2 > utils/maybe_leaks
-			rm -rf valou
-			if cmp -s results/simple_test_folder/simple_test_3 results/simple_test_folder/simple_test_corr_3
-			then
-			ret3='\033[1;32m[OK]\033[0m'
-			fi
-			if ! cmp -s utils/no_leaks utils/maybe_leaks
-			then
-			ret3="\033[1;31m/!\\\\\033[0m${ret3}"
-			fi
-
-		################
-		# FOLLOWING BN #
-		################
-
-			echo "################\n# FOLLOWING BN #\n################\n" > results/simple_test_folder/simple_test_4
-			/bin/echo -n "$(valgrind --log-file=valou ./extest tests_files/empty_file.txt)" >> results/simple_test_folder/simple_test_4
-			grep "definitely lost" valou | cut -d: -f2 > utils/maybe_leaks
-			rm -rf valou
-			if cmp -s results/simple_test_folder/simple_test_4 results/simple_test_folder/simple_test_corr_4
-			then
-			ret4='\033[1;32m[OK]\033[0m'
-			fi
-			if ! cmp -s utils/no_leaks utils/maybe_leaks
-			then
-			ret4="\033[1;31m/!\\\\\033[0m${ret4}"
-			fi
-
-			echo "simple_test : ${ret1} ${ret2} ${ret3} ${ret4}"
+			sh utils/test_sh/simple_test.sh ${PATH_GNL} 1 "test_buff_1" "###################\n# BUFFER_SIZE = 1 #\n###################\n"
+			sh utils/test_sh/simple_test.sh ${PATH_GNL} 579 "test_buff_579" "#####################\n# BUFFER_SIZE = 579 #\n#####################\n"
+			sh utils/test_sh/simple_test.sh ${PATH_GNL} 2024 "test_buff_2024" "######################\n# BUFFER_SIZE = 2024 #\n######################\n"
 		fi
 
 		############
@@ -138,6 +53,15 @@ do
 
 		if [ $ret == "1" ] || [ $ret == "3" ]
 		then
+
+			PROJECT='project.a'
+			GET_NEXT_LINE_FILES="${PATH_GNL}get_next_line.c ${PATH_GNL}get_next_line_utils.c"
+			OBJ="get_next_line.o get_next_line_utils.o"
+			gcc -Wall -Wextra -Werror -D BUFFER_SIZE=50 -c $GET_NEXT_LINE_FILES
+			ar rc utils/$PROJECT $OBJ
+			ranlib utils/$PROJECT
+			rm $OBJ
+
 			ret1='\033[1;31m[KO]\033[0m'
 			gcc -Wall -Werror -Wextra -g3 -o extest utils/$PROJECT gnl_test/tests/test_simple.c gnl_test/gnl_test_utils.c
 
@@ -158,6 +82,7 @@ do
 			ret1="\033[1;31m/!\\\\\033[0m${ret1}"
 			fi
 			echo "No_crash : ${ret1}"
+			rm -rf libft.a extest extest.dSYM
 		fi
 
 		################
@@ -166,6 +91,15 @@ do
 
 		if [ $ret == "1" ] || [ $ret == "4" ]
 		then
+
+			PROJECT='project.a'
+			GET_NEXT_LINE_FILES="${PATH_GNL}get_next_line.c ${PATH_GNL}get_next_line_utils.c"
+			OBJ="get_next_line.o get_next_line_utils.o"
+			gcc -Wall -Wextra -Werror -D BUFFER_SIZE=1 -c $GET_NEXT_LINE_FILES
+			ar rc utils/$PROJECT $OBJ
+			ranlib utils/$PROJECT
+			rm $OBJ
+
 			ret1='\033[1;31m[KO]\033[0m'
 			ret2='\033[1;31m[KO]\033[0m'
 			ret3='\033[1;31m[KO]\033[0m'
@@ -206,6 +140,7 @@ do
 			ret2="\033[1;31m/!\\\\\033[0m${ret2}"
 			fi
 
+
 			#####################
 			# WRONG BUFFER_SIZE #
 			#####################
@@ -225,7 +160,7 @@ do
 			fi
 
 			echo "Error_return : ${ret1} ${ret2} ${ret3}"
-			rm -rf nullos nullos.dSYM
+			rm -rf nullos nullos.dSYM libft.a extest extest.dSYM
 		fi
 
 		#########
@@ -234,29 +169,10 @@ do
 		
 		if [ $ret == "1" ] || [ $ret == "5" ]
 		then
-			ret1='\033[1;31m[KO]\033[0m'
-
-			gcc -Wall -Werror -Wextra -g3 -o extest utils/$PROJECT gnl_test/tests/test_multiple_fds.c gnl_test/gnl_test_utils.c
-
-			################
-			# MULTIPLE FDS #
-			################
-
-			echo "################\n# MULTIPLE FDS #\n################\n" > results/bonus_folder/bonus_1
-			/bin/echo -n "$(valgrind --log-file=valou ./extest tests_files/shakespear.txt tests_files/poe.txt tests_files/1_line_of_5_char_ending_with_bn.txt)" >> results/bonus_folder/bonus_1
-			grep "definitely lost" valou | cut -d: -f2 > utils/maybe_leaks
-			rm -rf valou
-			if cmp -s results/bonus_folder/bonus_1 results/bonus_folder/bonus_corr_1
-			then
-			ret1='\033[1;32m[OK]\033[0m'
-			fi
-			if ! cmp -s utils/no_leaks utils/maybe_leaks
-			then
-			re1="\033[1;31m/!\\\\\033[0m${ret1}"
-			fi
-			echo "BONUS : ${ret1}"
+		sh utils/test_sh/multi_fd.sh ${PATH_GNL} 1 "test_buff_1" "###################\n# BUFFER_SIZE = 1 #\n###################\n" 113
+		sh utils/test_sh/multi_fd.sh ${PATH_GNL} 579 "test_buff_579" "#####################\n# BUFFER_SIZE = 579 #\n#####################\n" 119
+		sh utils/test_sh/multi_fd.sh ${PATH_GNL} 2024 "test_buff_2024" "######################\n# BUFFER_SIZE = 2024 #\n######################\n" 122
 		fi
 	fi
 
 	done
-	rm -rf extest extest.dSYM

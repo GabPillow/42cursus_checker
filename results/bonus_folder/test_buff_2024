@@ -1,0 +1,897 @@
+################
+# MULTIPLE FDS #
+################
+
+######################
+# BUFFER_SIZE = 2024 #
+######################
+
+***** CALL 1 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Now is the winter of our discontent
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] The Raven
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[1] xxxxx
+***** CALL 2 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Made glorious summer by this sun of York;
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] BY EDGAR ALLAN POE
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 3 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] And all the clouds that lour'd upon our house
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Once upon a midnight dreary, while I pondered, weak and weary,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 4 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] In the deep bosom of the ocean buried.
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Over many a quaint and curious volume of forgotten lore—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 5 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Now are our brows bound with victorious wreaths;
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     While I nodded, nearly napping, suddenly there came a tapping,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 6 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Our bruised arms hung up for monuments;
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] As of some one gently rapping, rapping at my chamber door.
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 7 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Our stern alarums changed to merry meetings,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] “’Tis some visitor,” I muttered, “tapping at my chamber door—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 8 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Our dreadful marches to delightful measures.
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Only this and nothing more.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 9 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Grim-visaged war hath smooth'd his wrinkled front;
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 10 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] And now, instead of mounting barbed steeds
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Ah, distinctly I remember it was in the bleak December;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 11 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] To fright the souls of fearful adversaries,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] And each separate dying ember wrought its ghost upon the floor.
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 12 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] He capers nimbly in a lady's chamber
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Eagerly I wished the morrow;—vainly I had sought to borrow
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 13 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] To the lascivious pleasing of a lute.
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     From my books surcease of sorrow—sorrow for the lost Lenore—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 14 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] But I, that am not shaped for sportive tricks,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] For the rare and radiant maiden whom the angels name Lenore—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 15 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Nor made to court an amorous looking-glass;
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Nameless here for evermore.
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 16 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] I, that am rudely stamp'd, and want love's majesty
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 17 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] To strut before a wanton ambling nymph;
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     And the silken, sad, uncertain rustling of each purple curtain
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 18 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] I, that am curtail'd of this fair proportion,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Thrilled me—filled me with fantastic terrors never felt before;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 19 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Cheated of feature by dissembling nature,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     So that now, to still the beating of my heart, I stood repeating
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 20 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Deformed, unfinish'd, sent before my time
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     “’Tis some visitor entreating entrance at my chamber door—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 21 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Into this breathing world, scarce half made up,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Some late visitor entreating entrance at my chamber door;—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 22 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] And that so lamely and unfashionable
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             This it is and nothing more.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 23 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] That dogs bark at me as I halt by them;
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 24 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Why, I, in this weak piping time of peace,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Presently my soul grew stronger; hesitating then no longer,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 25 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Have no delight to pass away the time,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] “Sir,” said I, “or Madam, truly your forgiveness I implore;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 26 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Unless to spy my shadow in the sun
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     But the fact is I was napping, and so gently you came rapping,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 27 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] And descant on mine own deformity:
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     And so faintly you came tapping, tapping at my chamber door,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 28 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] And therefore, since I cannot prove a lover,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] That I scarce was sure I heard you”—here I opened wide the door;—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 29 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] To entertain these fair well-spoken days,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Darkness there and nothing more.
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 30 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] I am determined to prove a villain
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 31 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] And hate the idle pleasures of these days.
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Deep into that darkness peering, long I stood there wondering, fearing,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 32 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Plots have I laid, inductions dangerous,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Doubting, dreaming dreams no mortal ever dared to dream before;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 33 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] By drunken prophecies, libels and dreams,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     But the silence was unbroken, and the stillness gave no token,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 34 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] To set my brother Clarence and the king
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     And the only word there spoken was the whispered word, “Lenore?”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 35 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] In deadly hate the one against the other:
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] This I whispered, and an echo murmured back the word, “Lenore!”—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 36 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] And if King Edward be as true and just
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Merely this and nothing more.
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 37 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] As I am subtle, false and treacherous,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 38 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] This day should Clarence closely be mew'd up,
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Back into the chamber turning, all my soul within me burning,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 39 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] About a prophecy, which says that 'G'
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Soon again I heard a tapping somewhat louder than before.
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 40 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Of Edward's heirs the murderer shall be.
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     “Surely,” said I, “surely that is something at my window lattice;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 41 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Dive, thoughts, down to my soul: here
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]       Let me see, then, what thereat is, and this mystery explore—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 42 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[1] Clarence comes.
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Let my heart be still a moment and this mystery explore;—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 43 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             ’Tis the wind and nothing more!”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 44 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 45 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Open here I flung the shutter, when, with many a flirt and flutter,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 46 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] In there stepped a stately Raven of the saintly days of yore;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 47 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Not the least obeisance made he; not a minute stopped or stayed he;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 48 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     But, with mien of lord or lady, perched above my chamber door—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 49 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Perched upon a bust of Pallas just above my chamber door—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 50 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Perched, and sat, and nothing more.
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 51 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 52 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Then this ebony bird beguiling my sad fancy into smiling,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 53 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] By the grave and stern decorum of the countenance it wore,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 54 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] “Though thy crest be shorn and shaven, thou,” I said, “art sure no craven,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 55 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Ghastly grim and ancient Raven wandering from the Nightly shore—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 56 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Tell me what thy lordly name is on the Night’s Plutonian shore!”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 57 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Quoth the Raven “Nevermore.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 58 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 59 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Much I marvelled this ungainly fowl to hear discourse so plainly,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 60 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Though its answer little meaning—little relevancy bore;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 61 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     For we cannot help agreeing that no living human being
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 62 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Ever yet was blessed with seeing bird above his chamber door—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 63 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Bird or beast upon the sculptured bust above his chamber door,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 64 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             With such name as “Nevermore.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 65 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 66 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     But the Raven, sitting lonely on the placid bust, spoke only
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 67 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] That one word, as if his soul in that one word he did outpour.
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 68 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Nothing farther then he uttered—not a feather then he fluttered—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 69 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Till I scarcely more than muttered “Other friends have flown before—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 70 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] On the morrow he will leave me, as my Hopes have flown before.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 71 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Then the bird said “Nevermore.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 72 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 73 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Startled at the stillness broken by reply so aptly spoken,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 74 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] “Doubtless,” said I, “what it utters is its only stock and store
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 75 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Caught from some unhappy master whom unmerciful Disaster
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 76 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Followed fast and followed faster till his songs one burden bore—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 77 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Till the dirges of his Hope that melancholy burden bore
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 78 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Of ‘Never—nevermore’.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 79 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 80 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     But the Raven still beguiling all my fancy into smiling,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 81 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Straight I wheeled a cushioned seat in front of bird, and bust and door;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 82 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Then, upon the velvet sinking, I betook myself to linking
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 83 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Fancy unto fancy, thinking what this ominous bird of yore—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 84 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] What this grim, ungainly, ghastly, gaunt, and ominous bird of yore
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 85 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Meant in croaking “Nevermore.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 86 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 87 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     This I sat engaged in guessing, but no syllable expressing
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 88 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] To the fowl whose fiery eyes now burned into my bosom’s core;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 89 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     This and more I sat divining, with my head at ease reclining
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 90 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     On the cushion’s velvet lining that the lamp-light gloated o’er,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 91 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] But whose velvet-violet lining with the lamp-light gloating o’er,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 92 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             She shall press, ah, nevermore!
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 93 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 94 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Then, methought, the air grew denser, perfumed from an unseen censer
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 95 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Swung by Seraphim whose foot-falls tinkled on the tufted floor.
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 96 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     “Wretch,” I cried, “thy God hath lent thee—by these angels he hath sent thee
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 97 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Respite—respite and nepenthe from thy memories of Lenore;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 98 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Quaff, oh quaff this kind nepenthe and forget this lost Lenore!”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 99 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Quoth the Raven “Nevermore.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 100 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 101 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     “Prophet!” said I, “thing of evil!—prophet still, if bird or devil!—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 102 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Whether Tempter sent, or whether tempest tossed thee here ashore,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 103 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Desolate yet all undaunted, on this desert land enchanted—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 104 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     On this home by Horror haunted—tell me truly, I implore—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 105 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Is there—is there balm in Gilead?—tell me—tell me, I implore!”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 106 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Quoth the Raven “Nevermore.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 107 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 108 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     “Prophet!” said I, “thing of evil!—prophet still, if bird or devil!
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 109 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] By that Heaven that bends above us—by that God we both adore—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 110 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Tell this soul with sorrow laden if, within the distant Aidenn,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 111 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     It shall clasp a sainted maiden whom the angels name Lenore—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 112 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Clasp a rare and radiant maiden whom the angels name Lenore.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 113 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Quoth the Raven “Nevermore.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 114 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 115 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     “Be that word our sign of parting, bird or fiend!” I shrieked, upstarting—
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 116 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] “Get thee back into the tempest and the Night’s Plutonian shore!
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 117 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Leave no black plume as a token of that lie thy soul hath spoken!
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 118 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     Leave my loneliness unbroken!—quit the bust above my door!
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 119 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] Take thy beak from out my heart, and take thy form from off my door!”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 120 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]             Quoth the Raven “Nevermore.”
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 121 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] 
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 122 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     And the Raven, never flitting, still is sitting, still is sitting
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 123 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] On the pallid bust of Pallas just above my chamber door;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 124 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     And his eyes have all the seeming of a demon’s that is dreaming,
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 125 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1]     And the lamp-light o’er him streaming throws his shadow on the floor;
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 126 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[1] And my soul from out that shadow that lies floating on the floor
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 
+***** CALL 127 *****
+[[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
+[0] 
+[[[[[[[[[[ tests_files/poe.txt ]]]]]]]]]]
+[0]             Shall be lifted—nevermore!
+[[[[[[[[[[ tests_files/1_line_of_5_char_ending_with_bn.txt ]]]]]]]]]]
+[0] 

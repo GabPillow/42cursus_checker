@@ -2,6 +2,10 @@
 # MULTIPLE FDS #
 ################
 
+###################
+# BUFFER_SIZE = 1 #
+###################
+
 ***** CALL 1 *****
 [[[[[[[[[[ tests_files/shakespear.txt ]]]]]]]]]]
 [1] Now is the winter of our discontent

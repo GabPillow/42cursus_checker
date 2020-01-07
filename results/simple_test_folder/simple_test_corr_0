@@ -1,0 +1,24 @@
+###############
+# SIMPLE_TEST #
+###############
+
+######################
+# BUFFER_SIZE = 0 #
+######################
+
+##############
+# SHAKESPEAR #
+##############
+
+[0] 
+=== Count === 0
+=== Rappel apres avoir atteint la fin de fichier ===
+[0] 
+##############
+# EMPTY FILE #
+##############
+
+[0] 
+=== Count === 0
+=== Rappel apres avoir atteint la fin de fichier ===
+[0] 

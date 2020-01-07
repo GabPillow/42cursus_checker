@@ -1,7 +1,7 @@
 #ifndef GNL_TEST_H
 # define GNL_TEST_H
 
-#include "../../rendu_gnl/get_next_line.h"
+#include "../../rendu/get_next_line.h"
 #include <unistd.h>
 #include <stdlib.h>
 #include <fcntl.h>

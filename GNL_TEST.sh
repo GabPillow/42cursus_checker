@@ -45,6 +45,7 @@ do
 			sh utils/test_sh/simple_test.sh ${PATH_GNL} 1 "test_buff_1" "###################\n# BUFFER_SIZE = 1 #\n###################\n"
 			sh utils/test_sh/simple_test.sh ${PATH_GNL} 579 "test_buff_579" "#####################\n# BUFFER_SIZE = 579 #\n#####################\n"
 			sh utils/test_sh/simple_test.sh ${PATH_GNL} 2024 "test_buff_2024" "######################\n# BUFFER_SIZE = 2024 #\n######################\n"
+			sh utils/test_sh/simple_test_0.sh ${PATH_GNL} 0 "test_buff_0" "######################\n# BUFFER_SIZE = 0 #\n######################\n"
 		fi
 
 		############
